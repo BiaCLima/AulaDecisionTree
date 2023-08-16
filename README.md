@@ -1,30 +1,32 @@
-# AulaDecisionTree
-
-# Aula: Linear Regression
+# Aula: DecisionTree
 
 - Projeto realizado em sala de aula
 - Aplicação de Modelos de Machine Learning
 - Curso: Aplicações Informáticas para Ciência de Dados
 - Professor: Tiago Cunha Reis, PhD
 - Ipluso - Instituto Politécnico da Lusofonia
-- Data: 18/04/2023
+- Data: 28/03/2023
 - Autora: Bianca Lima
 
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
 ## Descrição do Projeto
 
-Projeto desenvolvido em sala de aula para estudo de Algoritmos de Machine Learning, neste caso de Regressão Linear.  
+Projeto desenvolvido em sala de aula para estudo de Algoritmos de Machine Learning, neste caso de Árvore de Decisão.  
 Tem como objetivo desenvolver as habilididades de análise do Algoritmos e das ferramentas de programação.  
 
  1. Introdução
-    - O objetivo do projeto é avaliar qual a relação da idade de um ser humano e sua pressão arterial, para isso foram gerados dados fictícios.
-  
+    - O algoritmo de árvore de decisão cria vários pontos de decisão, que são chamados de 'nós', que nos retorna o resultado da decisão para então seguir por um ou outro caminho, ou seja, é um algoritmo de classificação.
+    - Durante esse projecto classificaremos os tipos de planta.
+        
  2. Bibliotecas
-    - Neste projeto, foram utilizadas duas bibliotecas importantes: matplotlib e scikit-learn.  A biblioteca matplotlib foi empregada para a visualização gráfica dos dados e resultados, enquanto a scikit-learn foi usada para criar e treinar o modelo de Regressão Linear.
+    - Neste projeto, foram utilizadas três bibliotecas importantes: matplotlib, scikit-learn e numpy.  A biblioteca matplotlib foi empregada para a visualização gráfica dos dados e resultados, enquanto a scikit-learn foi usada para criar e treinar o modelo de Árvore de Decisão.
 
  3. Dados
-    - Os dados utilizados neste projeto foram gerados de forma fictícia e consistem em pares de valores de idade e pressão arterial. Esses dados foram criados para fins de estudo e análise da relação entre a idade e a pressão arterial.
+    - Foi utilizado o conjunto de dados da íris, disponibilizado no site scikit-learn.org (https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html).
+    - Esse conjunto de dados consistem em 3 tipos diferentes de comprimento de pétala e sépala de íris (Setosa, Versicolour e Virginica), armazenados em um numpy.ndarray de 150 x 4.
+
+As linhas são as amostras e as colunas são: Comprimento da Sépala, Largura da Sépala, Comprimento da Pétala e Largura da Pétala.
 
  4. Análise
     -  Para compreender melhor os dados gerados, realizou-se uma análise exploratória com uma representação gráfica por meio de um histograma. Essa visualização permite identificar a distribuição dos dados e obter insights iniciais sobre a relação entre a idade e a pressão arterial em nosso conjunto de dados fictícios:
