@@ -1,10 +1,6 @@
-# Aula: DecisionTree
-
-- Projeto realizado em sala de aula
-- Aplicação de Modelos de Machine Learning
-- Curso: Aplicações Informáticas para Ciência de Dados
-- Professor: Tiago Cunha Reis, PhD
-- Ipluso - Instituto Politécnico da Lusofonia
+# Aula: Decision Tree  
+  
+Este repositório contém um projeto desenvolvido em sala de aula como parte do curso "Aplicações Informáticas para Ciência de Dados", ministrado pelo Professor Tiago Cunha Reis, PhD, no Ipluso - Instituto Politécnico da Lusofonia.
 
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
@@ -33,6 +29,7 @@ Utilizamos a matriz de confusão para avaliar o desempenho do modelo, analisando
 
  8. Representação gráfica  
 Uma representação visual da Árvore de Decisão foi gerada, proporcionando uma visão clara das classificações em cada uma das classes.
+![Image](DecisionTree_iris.png)
      
 ## Acesso ao Projeto
 
